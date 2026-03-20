@@ -1,26 +1,29 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.kinetic-border {
+  border: 4px solid #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.kinetic-hover:hover {
+  background-color: #ffffff;
+  color: #0e0e0e;
+}
+
+.text-bleed {
+  font-size: clamp(5rem, 15vw, 20rem);
+  line-height: 0.8;
+  letter-spacing: -0.05em;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: theme('colors.background');
+  color: theme('colors.on-background');
+  font-family: theme('fontFamily.body');
+  overflow-x: hidden;
 }
