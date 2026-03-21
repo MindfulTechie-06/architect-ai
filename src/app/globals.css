@@ -1,68 +1,21 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --color-on-secondary: #505252;
-  --color-surface-dim: #0e0e0e;
-  --color-tertiary-container: #fc0078;
-  --color-secondary-container: #454747;
-  --color-surface-tint: #f3ffca;
-  --color-secondary-fixed-dim: #d4d4d4;
-  --color-on-error: #450900;
-  --color-on-tertiary: #47001d;
-  --color-on-tertiary-fixed-variant: #760035;
-  --color-primary-container: #cafd00;
-  --color-tertiary-fixed: #ff8eac;
-  --color-on-primary-fixed: #3a4a00;
-  --color-tertiary-dim: #e4006c;
-  --color-surface: #0e0e0e;
-  --color-on-error-container: #ffd2c8;
-  --color-surface-container: #1a1919;
-  --color-inverse-on-surface: #565554;
-  --color-on-primary-container: #4a5e00;
-  --color-on-background: #ffffff;
-  --color-inverse-surface: #fcf8f8;
-  --color-surface-container-highest: #262626;
-  --color-tertiary: #ff6b98;
-  --color-outline-variant: #494847;
-  --color-inverse-primary: #516700;
-  --color-on-tertiary-fixed: #380015;
-  --color-on-primary-fixed-variant: #526900;
-  --color-primary-dim: #beee00;
-  --color-surface-container-low: #131313;
-  --color-on-primary: #516700;
-  --color-error-dim: #d53d18;
-  --color-error-container: #b92902;
-  --color-primary-fixed: #cafd00;
-  --color-secondary: #e2e2e2;
-  --color-secondary-dim: #d4d4d4;
-  --color-surface-bright: #2c2c2c;
-  --color-on-secondary-container: #d0d0d0;
-  --color-primary-fixed-dim: #beee00;
-  --color-surface-container-high: #201f1f;
-  --color-secondary-fixed: #e2e2e2;
-  --color-tertiary-fixed-dim: #ff769e;
-  --color-on-secondary-fixed-variant: #5a5c5c;
-  --color-primary: #f3ffca;
-  --color-on-tertiary-container: #000000;
-  --color-on-secondary-fixed: #3e4040;
-  --color-background: #0e0e0e;
-  --color-surface-container-lowest: #000000;
-  --color-on-surface: #ffffff;
-  --color-outline: #777575;
-  --color-error: #ff7351;
-  --color-on-surface-variant: #adaaaa;
-  --color-surface-variant: #262626;
-
-  --font-headline: var(--font-space-grotesk), sans-serif;
-  --font-body: var(--font-space-grotesk), sans-serif;
-  --font-label: var(--font-space-grotesk), sans-serif;
-
-  --radius-lg: 0px;
-  --radius-xl: 0px;
-  --radius-full: 9999px;
-  --radius: 0px;
+/* Root variables */
+:root {
+  --background: #0e0e0e;
+  --foreground: #ffffff;
 }
 
+/* Base styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: sans-serif;
+}
+
+/* Custom classes (your existing ones) */
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
