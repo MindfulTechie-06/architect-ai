@@ -18,8 +18,8 @@ export const Header = () => {
           PRICING
         </a>
       </div>
-      <button className="bg-primary-container text-on-primary-container px-6 py-2 font-headline font-extrabold uppercase tracking-tighter active:scale-95 transition-transform">
-        INITIALIZE
+      <button className="bg-neon-green text-[#0e0e0e] px-8 py-2 font-headline font-black uppercase tracking-tighter active:scale-95 transition-transform">
+        START
       </button>
     </nav>
   );

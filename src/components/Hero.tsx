@@ -9,8 +9,8 @@ export const Hero = () => {
           <p className="max-w-xl font-headline text-2xl uppercase font-bold text-on-surface-variant leading-tight">
             We build high-frequency automation systems for teams that demand absolute operational dominance.
           </p>
-          <button className="bg-primary-container text-on-primary-container px-10 py-6 text-xl font-headline font-black uppercase tracking-widest kinetic-border hover:bg-white hover:text-black transition-colors">
-            INITIALIZE PROTOCOL
+          <button className="bg-neon-green text-[#0e0e0e] px-10 py-6 text-xl font-headline font-black uppercase tracking-widest kinetic-border hover:bg-white transition-colors">
+            BOOK A CALL
           </button>
         </div>
       </div>

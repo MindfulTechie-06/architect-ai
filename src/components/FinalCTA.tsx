@@ -1,6 +1,6 @@
 export const FinalCTA = () => {
   return (
-    <section className="py-64 bg-primary-container flex flex-col items-center justify-center text-center px-8">
+    <section className="py-64 bg-neon-green flex flex-col items-center justify-center text-center px-8">
       <h2 className="font-headline font-black text-8xl md:text-[14rem] text-black leading-none uppercase mb-12">
         STOP WAITING.
       </h2>

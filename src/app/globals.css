@@ -4,6 +4,9 @@
   --color-background: #0e0e0e;
   --color-foreground: #ffffff;
   --color-on-background: #ffffff;
+  --color-neon-green: #dfff00;
+  --color-neon-pink: #ff4a8d;
+  --color-surface: #1a1a1a;
   --font-body: var(--font-space-grotesk);
 }
 

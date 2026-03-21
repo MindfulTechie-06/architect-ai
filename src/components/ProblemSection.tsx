@@ -1,9 +1,9 @@
 export const ProblemSection = () => {
   return (
-    <section className="py-32 px-8 bg-surface-container-low">
+    <section className="py-32 px-8 bg-transparent">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
         <div className="md:col-span-4">
-          <span className="text-primary font-headline font-bold uppercase tracking-widest text-sm">
+          <span className="text-neon-green font-headline font-bold uppercase tracking-widest text-sm">
             [ SYSTEM_ERROR ]
           </span>
         </div>
