@@ -5,21 +5,21 @@ export const Footer = () => {
         <div className="text-lg font-bold text-white font-headline uppercase tracking-tighter">
           ARCHITECT
         </div>
-        <p className="font-['Space_Grotesk'] font-medium uppercase text-[12px] tracking-widest text-white/50">
+        <p className="font-headline font-medium uppercase text-[12px] tracking-widest text-white/50">
           ©2024 ARCHITECT AI. ALL RIGHTS RESERVED. NO SOFTNESS.
         </p>
       </div>
       <div className="flex gap-12">
-        <a className="font-['Space_Grotesk'] font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none" href="#">
+        <a className="font-headline font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none" href="#">
           TERMINAL
         </a>
-        <a className="font-['Space_Grotesk'] font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none underline decoration-[#f3ffca]" href="#">
+        <a className="font-headline font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none underline decoration-[#f3ffca]" href="#">
           LOGS
         </a>
-        <a className="font-['Space_Grotesk'] font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none" href="#">
+        <a className="font-headline font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none" href="#">
           ENCRYPT
         </a>
-        <a className="font-['Space_Grotesk'] font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none" href="#">
+        <a className="font-headline font-medium uppercase text-[12px] tracking-widest text-white/50 hover:text-white transition-none" href="#">
           STATUS
         </a>
       </div>

@@ -2,7 +2,7 @@ export const Hero = () => {
   return (
     <section className="min-h-screen flex flex-col justify-end pt-32 pb-16 px-8 bg-surface">
       <div className="relative">
-        <h1 className="font-headline font-extrabold uppercase text-bleed -ml-4 mb-12 select-none">
+        <h1 className="font-headline font-black uppercase text-bleed -ml-4 mb-12 select-none tracking-tighter">
           YOUR<br />AI TEAM.
         </h1>
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-8">

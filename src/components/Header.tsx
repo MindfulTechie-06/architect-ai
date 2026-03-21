@@ -5,16 +5,16 @@ export const Header = () => {
         ARCHITECT
       </div>
       <div className="hidden md:flex gap-12 items-center">
-        <a className="font-['Space_Grotesk'] font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
+        <a className="font-headline font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
           PROTOCOL
         </a>
-        <a className="font-['Space_Grotesk'] font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
+        <a className="font-headline font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
           SYSTEMS
         </a>
-        <a className="font-['Space_Grotesk'] font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
+        <a className="font-headline font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
           SERVICES
         </a>
-        <a className="font-['Space_Grotesk'] font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
+        <a className="font-headline font-extrabold uppercase tracking-tighter text-white/70 hover:text-[#f3ffca] transition-none" href="#">
           PRICING
         </a>
       </div>

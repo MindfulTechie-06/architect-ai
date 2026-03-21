@@ -3,7 +3,7 @@ export const Pricing = () => {
     <section className="py-32 bg-surface-container-lowest">
       <div className="px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
         
-        <div className="bg-white text-black p-8 font-['Space_Grotesk'] border-b-8 border-primary">
+        <div className="bg-white text-black p-8 font-headline border-b-8 border-primary">
           <div className="text-center border-b-2 border-black border-dashed pb-4 mb-8">
             <p className="font-black text-xl uppercase">BRUTALIST / LITE</p>
             <p className="text-xs">ID: 4423-ARCH</p>
@@ -28,7 +28,7 @@ export const Pricing = () => {
           </button>
         </div>
 
-        <div className="bg-primary text-black p-8 font-['Space_Grotesk'] border-b-8 border-black transform md:-translate-y-8 scale-105">
+        <div className="bg-primary text-black p-8 font-headline border-b-8 border-black transform md:-translate-y-8 scale-105">
           <div className="text-center border-b-2 border-black border-dashed pb-4 mb-8">
             <p className="font-black text-xl uppercase">ARCHITECT / PRO</p>
             <p className="text-xs">RECOMMENDED SYSTEM</p>
@@ -56,7 +56,7 @@ export const Pricing = () => {
           </button>
         </div>
 
-        <div className="bg-white text-black p-8 font-['Space_Grotesk'] border-b-8 border-tertiary">
+        <div className="bg-white text-black p-8 font-headline border-b-8 border-tertiary">
           <div className="text-center border-b-2 border-black border-dashed pb-4 mb-8">
             <p className="font-black text-xl uppercase">ENTERPRISE / VOID</p>
             <p className="text-xs">UNLIMITED CAPACITY</p>
