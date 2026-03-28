@@ -1,12 +1,12 @@
 export const Pricing = () => {
   return (
-    <section className="py-32 bg-transparent">
-      <div className="px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <section className="py-16 md:py-32 bg-transparent">
+      <div className="px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
         
-        <div className="bg-white text-black p-8 font-headline border-b-8 border-neon-green">
+        <div className="bg-white text-black p-6 md:p-8 font-headline border-b-8 border-neon-green hover:-translate-y-2 transition-transform duration-300">
           <div className="text-center border-b-2 border-black border-dashed pb-4 mb-8">
             <p className="font-black text-xl uppercase">BRUTALIST / LITE</p>
-            <p className="text-xs">ID: 4423-ARCH</p>
+            <p className="text-xs mt-2">ID: 4423-ARCH</p>
           </div>
           <ul className="flex flex-col gap-4 mb-12">
             <li className="flex justify-between border-b border-black/10 pb-2">
@@ -21,17 +21,17 @@ export const Pricing = () => {
           </ul>
           <div className="text-right mb-8">
             <p className="text-sm font-bold uppercase">TOTAL MONTHLY</p>
-            <p className="text-5xl font-black">$4,999</p>
+            <p className="text-4xl md:text-5xl font-black mt-1">$4,999</p>
           </div>
-          <button className="w-full bg-black text-white py-4 font-black uppercase hover:bg-neon-green hover:text-black transition-colors">
+          <button className="w-full bg-black text-white py-4 font-black uppercase hover:bg-neon-green hover:text-black transition-colors active:scale-95">
             SELECT PROTOCOL
           </button>
         </div>
 
-        <div className="bg-neon-green text-black p-8 font-headline border-b-8 border-black transform md:-translate-y-8 scale-105">
+        <div className="bg-neon-green text-black p-6 md:p-8 font-headline border-b-8 border-black transform md:-translate-y-8 md:scale-105 shadow-[0_0_40px_rgba(223,255,0,0.15)] relative z-10">
           <div className="text-center border-b-2 border-black border-dashed pb-4 mb-8">
-            <p className="font-black text-xl uppercase">ARCHITECT / PRO</p>
-            <p className="text-xs">RECOMMENDED SYSTEM</p>
+            <p className="font-black text-xl md:text-2xl uppercase">ARCHITECT / PRO</p>
+            <p className="text-xs font-bold mt-2">RECOMMENDED SYSTEM</p>
           </div>
           <ul className="flex flex-col gap-4 mb-12 font-bold">
             <li className="flex justify-between border-b border-black/20 pb-2">
@@ -49,17 +49,17 @@ export const Pricing = () => {
           </ul>
           <div className="text-right mb-8">
             <p className="text-sm font-bold uppercase">TOTAL MONTHLY</p>
-            <p className="text-6xl font-black">$12,500</p>
+            <p className="text-5xl md:text-6xl font-black mt-1">$12,500</p>
           </div>
-          <button className="w-full bg-black text-white py-4 font-black uppercase hover:bg-white hover:text-black transition-colors">
+          <button className="w-full bg-black text-white py-4 font-black uppercase hover:bg-white hover:text-black transition-colors active:scale-95 shadow-lg">
             INITIATE SYSTEM
           </button>
         </div>
 
-        <div className="bg-white text-black p-8 font-headline border-b-8 border-neon-pink">
+        <div className="bg-white text-black p-6 md:p-8 font-headline border-b-8 border-neon-pink hover:-translate-y-2 transition-transform duration-300 md:translate-y-0">
           <div className="text-center border-b-2 border-black border-dashed pb-4 mb-8">
             <p className="font-black text-xl uppercase">ENTERPRISE / VOID</p>
-            <p className="text-xs">UNLIMITED CAPACITY</p>
+            <p className="text-xs mt-2">UNLIMITED CAPACITY</p>
           </div>
           <ul className="flex flex-col gap-4 mb-12">
             <li className="flex justify-between border-b border-black/10 pb-2">
@@ -74,9 +74,9 @@ export const Pricing = () => {
           </ul>
           <div className="text-right mb-8">
             <p className="text-sm font-bold uppercase">TOTAL MONTHLY</p>
-            <p className="text-5xl font-black">QUOTE</p>
+            <p className="text-4xl md:text-5xl font-black mt-1">QUOTE</p>
           </div>
-          <button className="w-full bg-black text-white py-4 font-black uppercase hover:bg-neon-pink hover:text-black transition-colors">
+          <button className="w-full bg-black text-white py-4 font-black uppercase hover:bg-neon-pink hover:text-black transition-colors active:scale-95">
             CONTACT ARCHITECT
           </button>
         </div>
